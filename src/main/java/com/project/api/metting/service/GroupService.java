@@ -262,4 +262,6 @@ public class GroupService {
         groupUser.setStatus(GroupStatus.REGISTERED);
         groupUsersRepository.save(groupUser);
     }
+
+
 }
